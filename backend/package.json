@@ -1,0 +1,19 @@
+{
+  "name": "migunesia-game-backend",
+  "version": "1.0.0",
+  "description": "Backend engine with local CSV storage for Catch-the-Object game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
